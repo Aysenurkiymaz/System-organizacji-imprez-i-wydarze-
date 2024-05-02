@@ -1,0 +1,20 @@
+<!-- views/editEvent.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Event</title>
+</head>
+<body>
+  <h1>Edit Event</h1>
+  <form action="/events/<%= event._id %>" method="POST">
+    <label for="name">Event Name:</label>
+    <input type="text" id="name" name="name" value="<%= event.name %>" required>
+    <label for="date">Event Date:</label>
+    <input type="date" id="date" name="date" value="<%= event.date.toISOString().split('T')[0] %>" required>
+    <button type="submit">Update Event</button>
+  </form>
+</body>
+</html>

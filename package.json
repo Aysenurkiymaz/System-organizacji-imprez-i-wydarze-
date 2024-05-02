@@ -1,0 +1,14 @@
+﻿{
+  "name": "system-organizacji-imprez-i-wydarze-",
+  "version": "0.0.0",
+  "description": "System organizacji imprez i wydarzeń",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}

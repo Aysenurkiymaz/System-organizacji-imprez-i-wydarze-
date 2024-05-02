@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Birthday Party",
+    "date": "2024-05-12",
+    "guests": [ "Aysenur", "Anna" ]
+  },
+  {
+    "name": "Conference",
+    "date": "2024-06-20",
+    "guests": [ "Renata", "Sofia", "Zuzanna" ]
+  }
+]
